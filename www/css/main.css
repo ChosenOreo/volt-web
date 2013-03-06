@@ -1,17 +1,24 @@
-#navigation {
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Lucida Grande, Heveltica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+#topbar {
     position: fixed;
     top: 0;
     width: 100%;
     color: #FFFFFF;
     height: 35px;
-    text-align: center
+    text-align: center;
     padding-top: 15px;
-    box-shadow: 0px 0xp 8px 0px #000000;
+    box-shadow: 0px 0px 8px 0px #000000;
     background-color: rgba(1, 1, 1, 0.8);
     color: rgba(1, 1, 1, 0.8);
 }
 
-#navigation a {
+#topbar a {
     font-size: 14px;
     padding-left: 15px;
     padding-right: 15px;
@@ -19,6 +26,6 @@
     text-decoration: none;
 }
 
-#navigation a:hover {
-    color: grey;
+#topbar a:hover {
+    color: gray;
 }
