@@ -1,48 +1,59 @@
-body {
-    padding: 0px;
-    margin: 0px;
-    font-family: Lucida Grande, Heveltica, Arial, sans-serif;
-    font-size: 12px;
-}
+body { padding: 0; }
+body { margin: 0; }
+body { font-family: Lucida Grande, Heveltica, Arial, sans-serif; }
 
 #topbar {
     position: fixed;
     top: 0;
     width: 100%;
     color: #FFFFFF;
-    height: 35px;
     text-align: center;
-    box-shadow: 0px 0px 8px 0px #000000;
-    background-color: rgba(1, 1, 1, 0.0);
-    color: rgba(1, 1, 1, 0.8);
 	font-weight: 700;
 }
 
 #topbar a {
-    font-size: 14px;
     padding-left: 15px;
     padding-right: 15px;
-    color: white;
     text-decoration: none;
 }
 
-#topbar a:hover {
-    color: gray;
-}
+body { font-size: 12px; }
+#topbar a { font-size: 14px; }
 
-#topbar #Home { float: left; }
-#topbar #About { float: left; }
+/* Color */
+#topbar         { color: rgb(1, 1, 1); color: rgba(1, 1, 1, 0.8); }
+#topbar a       { color: #404040; }
+#topbar a:hover { color: #696969; }
 
-#topbar #Code { float: right; }
+/* Float */
+#topbar #Home   { float: left; }
+#topbar #About  { float: left; }
+#topbar #Code   { float: right; }
 
-#topbar #Home { background-color: rgba(1, 1, 1, 0.8); }
-#topbar #About { background-color: rgba(1, 1, 1, 0.8); }
-#topbar #Code { background-color: rgba(1, 1, 1, 0.8); }
+/* Baground Color */
+#topbar         { background-color: rgb(1, 1, 1); background-color: rgba(1, 1, 1, 0.0); }
+#topbar #Home   { background-color: rgb(1, 1, 1); background-color: rgba(1, 1, 1, 0.4); }
+#topbar #About  { background-color: rgb(1, 1, 1); background-color: rgba(1, 1, 1, 0.4); }
+#topbar #Code   { background-color: rgb(1, 1, 1); background-color: rgba(1, 1, 1, 0.4); }
 
-#topbar #Home { height: 100%; }
-#topbar #About { height: 100%; }
-#topbar #Code { height: 100%; }
+/* Height */
+#topbar         { height: 25px; }
+#topbar #Home   { height: 45px; }
+#topbar #About  { height: 100%; }
+#topbar #Code   { height: 100%; }
 
-#topbar #Home {padding-top: 15px; }
-#topbar #About {padding-top: 15px; }
-#topbar #Code {padding-top: 15px; }
+/* Margin-right */
+#topbar #Home   { margin-right: 3px; }
+
+/* Top Padding */
+#topbar #Home   { padding-top: 25px; }
+#topbar #About  { padding-top: 5px; }
+#topbar #Code   { padding-top: 5px; }
+
+/* Bottom Left Border */
+#topbar #About  { border-bottom-left-radius: 10px; }
+#topbar #Code   { border-bottom-left-radius: 10px; }
+
+/* Bottom Right Border */
+#topbar #Home   { border-bottom-right-radius: 10px; }
+#topbar #About  { border-bottom-right-radius: 10px; }
