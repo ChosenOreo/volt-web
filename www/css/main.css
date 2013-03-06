@@ -12,10 +12,10 @@ body {
     color: #FFFFFF;
     height: 35px;
     text-align: center;
-    padding-top: 15px;
     box-shadow: 0px 0px 8px 0px #000000;
-    background-color: rgba(1, 1, 1, 0.8);
+    background-color: rgba(1, 1, 1, 0.0);
     color: rgba(1, 1, 1, 0.8);
+	font-weight: 700;
 }
 
 #topbar a {
@@ -29,3 +29,20 @@ body {
 #topbar a:hover {
     color: gray;
 }
+
+#topbar #Home { float: left; }
+#topbar #About { float: left; }
+
+#topbar #Code { float: right; }
+
+#topbar #Home { background-color: rgba(1, 1, 1, 0.8); }
+#topbar #About { background-color: rgba(1, 1, 1, 0.8); }
+#topbar #Code { background-color: rgba(1, 1, 1, 0.8); }
+
+#topbar #Home { height: 100%; }
+#topbar #About { height: 100%; }
+#topbar #Code { height: 100%; }
+
+#topbar #Home {padding-top: 15px; }
+#topbar #About {padding-top: 15px; }
+#topbar #Code {padding-top: 15px; }
