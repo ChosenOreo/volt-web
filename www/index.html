@@ -3,12 +3,27 @@
 <head>
     <title>Voltoid Technologies</title>
     <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link rel="stylesheet" href="css/ui.css" type="text/css" />
 </head>
 <body>
-    <div id="topbar">
-        <div id="Home"><a id="HomeLink" href="#">Home</a></div>
-        <div id="About"><a id="AboutLink" href="#"><img src="images/Search.png" width="16" height="16"></img> Search</a></div>
-        <div id="Code"><a id="CodeLink" href="#">Code</a></div>
+    <!-- Top Navigation Bar -->
+    <div class="NavigationBar" id="TopMenuBar">
+        <div class="NavigationTab" id="NavTab_Menu">
+            Home
+        </div>
+        <div class="NavigationTab" id="NavTab_Search">
+            <form class="NavigationForm" id="NavTab_SearchForm">
+                <span class="SearchForm" id="SearchFormBox">
+                    <input class="TextBox" id="SearchBox" type="text" placeholder="Search...">
+                </span>
+                <span class="SearchForm" id="SearchFormButton">
+                    <input class="Button" id="SearchButton" type="button" value="Search">
+                </span>
+            </form>
+        </div>
+        <div class="NavigationTab" id="NavTab_Account">
+            Account
+        </div>
     </div>
 </body>
 </html>

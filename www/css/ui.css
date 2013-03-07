@@ -1,0 +1,29 @@
+/* Standard Navigation Bar */
+.NavigationBar { list-style-type: none; }
+.NavigationBar { margin: 0; }
+.NavigationBar { padding: 0; }
+
+/* Top Menu Bar */
+#TopMenuBar.NavigationBar { font-weight: 700; }
+#TopMenuBar.NavigationBar { position: fixed; }
+#TopMenuBar.NavigationBar { width: 100%; }
+#TopMenuBar.NavigationBar { height: 25px; }
+#TopMenuBar.NavigationBar { text-align: center; }
+#TopMenuBar.NavigationBar { top: 0; }
+
+/* Navigation Tab */
+.NavigationTab { padding-left: 15px; }
+.NavigationTab { padding-right: 15px; }
+.NavigationTab { padding-top: 2px; }
+.NavigationTab { text-decoration: none; }
+.NavigationTab { display: inline; }
+.NavigationTab { font-size: 22px; }
+
+/* Main Menu Tab */
+#NavTab_Menu.NavigationTab { float: left; }
+
+/* Search Tab */
+#NavTab_Search.NavigationTab { float: left; }
+
+/* Account Tab */
+#NavTab_Account.NavigationTab { float: right; }
